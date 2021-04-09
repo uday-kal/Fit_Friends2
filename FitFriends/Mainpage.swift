@@ -17,11 +17,7 @@ struct Mainpage: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        Mainpage()
-    }
-}
+
 
 struct Home : View {
     @State var show = false;
@@ -158,7 +154,6 @@ struct Login : View {
                     .cornerRadius(10)
                     .padding(.top,25)
                     
-//-----------------------------------------------------------------------
                     //button for login
                     Button(action: {
                         checkInputs()
@@ -169,15 +164,11 @@ struct Login : View {
                             self.token = response
                              myGroup.leave()
                          }
-
                          
                         // Waits for request to finish
                         myGroup.notify(queue: .main) {
                             //if successfull, toggle loading, wait 2 seconds and direct to user page
-
-                            if (token != ("Error") ){
-                                token = "Bearer " + token
-                                print("token: " + token)
+                            if token.contains("Success"){
                                 withAnimation {
                                     self.loading.toggle()
                                     DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
@@ -188,8 +179,6 @@ struct Login : View {
                                 self.error = "Email or password is incorrect."
                                 self.alert.toggle()
                             }
-                            
-//-----------------------------------------------------------------------
                          }
                     }){
                         Text("LOGIN")
@@ -421,16 +410,15 @@ func tryLogin(_ email: String, _ password: String,_ completion: @escaping (Strin
                             //You probably won't need this but its usefull to see if everything is working as it prints in the console
                             //print(json["message"])
                             //IMPORTANT identifies user for later use
-                            token = json["Token"].rawString() ?? ""
-                            //token = json["message"].string ?? ""
+                            //token = json["Token"].rawString() ?? ""
+                            token = json["message"].string ?? ""
                             completion(token)
                             //You can send them to the user page at this point
                         }
                         else
                         {
                             //prints string attached to message such as no user found
-                            token = "Error"
-                            completion(token)
+                            print(json["error"])
                         }
                     }
                 }
