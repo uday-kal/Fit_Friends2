@@ -1,5 +1,5 @@
 # Fit Friends
-*This repository was created in response to issues faced in the previous repository regarding the file managment.*
+*This respository was created in response to issues faced in the previous repository regarding the file managment.*
 
 ## Introduction
 The majority of code can be found in the "FitFriends" folder.
@@ -26,7 +26,7 @@ The registration, after meeting all requirements (checkable when button is click
 
 A sucess message will appear and the user can sign in.
 
-<img src="https://drive.google.com/uc?export=view&id=1nYkzzHurmuhCxUGYJWtwDtnCB5V1I_7j" style="width: 50px; max-width: 100%; height: auto">
+<img src="https://drive.google.com/uc?export=view&id=1pueKSNR3NSj4ShQp7b9roQ30EB7NDcue" style="width: 50px; max-width: 100%; height: auto">
 
 ## UserPage.swift (WIP)
 The user can select add calories/activites to their daily routine. When completed another request to register it in the database will take place.
