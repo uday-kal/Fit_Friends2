@@ -22,6 +22,7 @@
 		42EACF5126236C4200E6C425 /* Mainpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EACF5026236C4200E6C425 /* Mainpage.swift */; };
 		42EACF5226236C4200E6C425 /* Mainpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EACF5026236C4200E6C425 /* Mainpage.swift */; };
 		42EACF5326236C4200E6C425 /* Mainpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EACF5026236C4200E6C425 /* Mainpage.swift */; };
+		42EACF9426237A8600E6C425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EACF9326237A8600E6C425 /* Assets.xcassets */; };
 		745991A8418AACADB890DBB2 /* Pods_FitFriendsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F33C9B66E2307A6931820BC /* Pods_FitFriendsTests.framework */; };
 		A46A8C897F81C6D7E10AAD78 /* Pods_FitFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C728AA95701BC6FF328C0BC /* Pods_FitFriends.framework */; };
 		B0F6139F11F1B09C0F7373E1 /* Pods_FitFriends_FitFriendsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A428CBDA09B9E9EB8EE143 /* Pods_FitFriends_FitFriendsUITests.framework */; };
@@ -63,6 +64,7 @@
 		42EACF3B26236BD200E6C425 /* UserPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPageView.swift; sourceTree = "<group>"; };
 		42EACF3D26236BD300E6C425 /* RegistrationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationPage.swift; sourceTree = "<group>"; };
 		42EACF5026236C4200E6C425 /* Mainpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mainpage.swift; sourceTree = "<group>"; };
+		42EACF9326237A8600E6C425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543E53E4DEF90ADB6CFB0320 /* Pods-FitFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFriends.debug.xcconfig"; path = "Target Support Files/Pods-FitFriends/Pods-FitFriends.debug.xcconfig"; sourceTree = "<group>"; };
 		5F597DAE3F6436CE9184DDCC /* Pods-FitFriends-FitFriendsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFriends-FitFriendsUITests.debug.xcconfig"; path = "Target Support Files/Pods-FitFriends-FitFriendsUITests/Pods-FitFriends-FitFriendsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F33C9B66E2307A6931820BC /* Pods_FitFriendsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitFriendsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +139,7 @@
 				42EACF5026236C4200E6C425 /* Mainpage.swift */,
 				42EACF3D26236BD300E6C425 /* RegistrationPage.swift */,
 				42EACF3B26236BD200E6C425 /* UserPageView.swift */,
+				42EACF9326237A8600E6C425 /* Assets.xcassets */,
 				42BD16612620EED500CF1EE3 /* AppDelegate.swift */,
 				42BD16632620EED500CF1EE3 /* SceneDelegate.swift */,
 				42BD166C2620EED600CF1EE3 /* LaunchScreen.storyboard */,
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42BD166E2620EED600CF1EE3 /* LaunchScreen.storyboard in Resources */,
+				42EACF9426237A8600E6C425 /* Assets.xcassets in Resources */,
 				42BD166B2620EED600CF1EE3 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
