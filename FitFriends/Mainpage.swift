@@ -126,7 +126,7 @@ struct Login : View {
                         Divider()
                         
                         //horizontal stack holding password
-                        HStack(spacing: 15){
+                        HStack(spacing: 15){ //
                             Image(systemName: "lock")
                                 .resizable()
                                 .frame(width:15, height:18)
